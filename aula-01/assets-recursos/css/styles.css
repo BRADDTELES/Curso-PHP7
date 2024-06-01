@@ -75,6 +75,8 @@ body{
 
 .modulo{
     flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .modulo > h3{
@@ -107,3 +109,31 @@ body{
 .modulo > ul > l > a:hover{
     background-color: #EEE;
 }
+
+.modulo.verde { border: 2px solid #4caf50;}
+.modulo.verde > h3 { background-color: #4caf50;}
+
+.modulo.vermelho { border: 2px solid #f44336;}
+.modulo.vermelho > h3 { background-color: #f44336;}
+
+.modulo.azul { border: 2px solid #2196f3;}
+.modulo.azul > h3 { background-color: #2196f3;}
+
+.modulo.roxo { border: 2px solid #9c2780;}
+.modulo.roxo > h3 { background-color: #9c2780;}
+
+.modulo.laranja { border: 2px solid #ff9800;}
+.modulo.laranja > h3 { background-color: #ff9800;}
+
+.modulo.verde-escuro { border: 2px solid #1b5e20;}
+.modulo.verde-escuro > h3 { background-color: #1b5e20;}
+
+.modulo.vermelho-escuro { border: 2px solid #b71c1c;}
+.modulo.vermelho-escuro > h3 { background-color: #b71c1c;}
+
+.modulo.azul-escuro { border: 2px solid #0d47a1;}
+.modulo.azul-escuro > h3 { background-color: #0d47a1;}
+
+.modulo.roxo-escuro { border: 2px solid #4a148c;}
+.modulo.roxo-escuro > h3 { background-color: #4a148c;}
+
