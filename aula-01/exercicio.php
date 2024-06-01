@@ -8,16 +8,27 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets-recursos/css/styles.css" />
+    <link rel="stylesheet" href="assets-recursos/css/exercicio.css" />
     <title>Exercício</title>
   </head>
-  <body>
+  <body class="exercicio">
     <header class="cabecalho">
       <h1>Curso PHP</h1>
       <h2>Visualização do Exercício</h2>
     </header>
+    <nav class="navegacao">
+      <a href=<?="{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem Formatação</a>
+      <a href="index.php" class="vermelho">Voltar</a>
+    </nav>
     <main class="principal">
       <div class="conteudo">
-        
+        <?php /*--Formas de chamar outro arquivo em outra pasta do PHP--*/
+        //include("teste/teste.php"); //http://localhost:3000/aula-01/exercicio.php
+        //include($_GET['dir'] . "/teste.php"); //http://localhost:3000/aula-01/teste/exercicio.php?dir=teste
+        //include($_GET['dir'] . "/" . $_GET['file'] . ".php"); //http://localhost:3000/aula-01/exercicio.php?dir=teste&file=teste
+        //include("{$_GET['dir']}/{$_GET['file']}.php"); //http://localhost:3000/aula-01/exercicio.php?dir=teste&file=teste
+        include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php"); //http://localhost:3000/aula-01/exercicio.php?dir=teste&file=teste
+        ?>
       </div>
     </main>
     <foote class="rodape">
