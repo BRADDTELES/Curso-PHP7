@@ -68,6 +68,11 @@
                   Op. Aritméticas
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=tipos&file=desafio_procedencia">
+                  Desafio Procedência
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
