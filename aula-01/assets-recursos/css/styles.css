@@ -145,3 +145,7 @@ p.divisao {
 hr {
     margin-top: 0px;
 }
+
+button, select{
+    font-size: 1.2rem;
+}
