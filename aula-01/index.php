@@ -32,7 +32,12 @@
                 <a href="exercicio.php?dir=array&file=mapa">
                   Mapa
                 </a>
-              </li>        
+              </li>  
+              <li>
+                <a href="exercicio.php?dir=array&file=desafio_indice">
+                  Desafio Índice
+                </a>
+              </li>       
             </ul>
           </div>
         <div class="modulo roxo">
