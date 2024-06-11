@@ -58,6 +58,11 @@
                   Arrays Multidimensionais
                 </a>
               </li> 
+              <li>
+                <a href="exercicio.php?dir=array&file=array_constantes">
+                  Arrays Constantes
+                </a>
+              </li> 
             </ul>
           </div>
         <div class="modulo roxo">
