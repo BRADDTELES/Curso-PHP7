@@ -53,6 +53,11 @@
                   Desafio Sorteio
                 </a>
               </li>    
+              <li>
+                <a href="exercicio.php?dir=array&file=array_multidimensionais">
+                  Arrays Multidimensionais
+                </a>
+              </li> 
             </ul>
           </div>
         <div class="modulo roxo">
