@@ -48,6 +48,11 @@
                   Argumentos Padrão
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=funcoes&file=usando_tipos">
+                  Usando Tipos
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo verde-escuro">
