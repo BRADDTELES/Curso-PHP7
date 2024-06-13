@@ -53,6 +53,11 @@
                   Usando Tipos
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=funcoes&file=anonimas">
+                  Funções Anônimas
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo verde-escuro">
