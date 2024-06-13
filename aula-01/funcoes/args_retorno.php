@@ -1,5 +1,7 @@
 <div class="titulo">Argumentos & Retorno</div>
-
+<!-- 
+    Argumentos e Parâmetros são a mesma coisa
+-->
 <?php
 function obterMensagem() {
     return "Seja bem vindo(a)!";
