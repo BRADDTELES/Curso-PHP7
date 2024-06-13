@@ -33,6 +33,11 @@
                   Argumentos & Retorno
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=funcoes&file=desafio_palindromo">
+                  Desafio Palindromo
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo verde-escuro">
