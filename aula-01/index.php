@@ -22,13 +22,13 @@
         <nav class="modulos">
         <div class="modulo vermelho-escuro">
             <h3>7. Funções</h3>
-            <!-- <ul>
+            <ul>
               <li>
-                <a href="exercicio.php?dir=funcoes&file=for">
-                  
+                <a href="exercicio.php?dir=funcoes&file=escopo">
+                  Funções & Escopo
                 </a>
               </li>
-            </ul> -->
+            </ul>
           </div>
         <div class="modulo verde-escuro">
             <h3>6. Repetições</h3>
