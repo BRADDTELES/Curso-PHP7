@@ -68,6 +68,11 @@
                   Recursividade
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=funcoes&file=desafio_recursivo">
+                  Desafio Recursivo
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo verde-escuro">
