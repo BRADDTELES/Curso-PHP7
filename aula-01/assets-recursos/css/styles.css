@@ -102,12 +102,15 @@ body{
 
 .modulo > ul > l > a {
     display: flex;
-    text-decoration: none;
     color: #222;
 }
 
 .modulo > ul > l > a:hover{
     background-color: #EEE;
+}
+
+.plain {
+    text-decoration: none;
 }
 
 .modulo.verde { border: 2px solid #4caf50;}
