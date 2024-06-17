@@ -23,7 +23,7 @@ class Usuario {
 }
 
 
-$usuario = new Usuario();
+$usuario = new Usuario(); // LINHA CORRIGIDA: desabilitei a extensão PHP Intelephense
 var_dump($usuario->validarString(' '));
 echo '<br>';
 var_dump($usuario->validacaoSimples(' '));

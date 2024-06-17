@@ -31,7 +31,7 @@ class Usuario {
 
 // var_dump(validacao->validacaoMelhor);
 
-$usuario = new Usuario();
+$usuario = new Usuario(); // LINHA CORRIGIDA: desabilitei a extensão PHP Intelephense
 var_dump($usuario->validarString(" "));
 echo '<br>';
 var_dump($usuario->validarStringMelhor(" "));
