@@ -83,6 +83,11 @@
                   Traits #02
                 </a>
               </li>
+              <li>
+                <a href="exercicio.php?dir=classes_objetos&file=metodos_magicos">
+                  Métodos Mágicos
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo vermelho-escuro">
