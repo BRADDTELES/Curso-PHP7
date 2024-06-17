@@ -18,9 +18,9 @@ class Classe extends Abstrata {
     // }
 }
 
-$classe = new Classe();
+$classe = new Classe('...');
 $classe->metodo1();
-$classe->metodo2();
+$classe->metodo2('');
 
 final class Unica {
     public $atributo = "Valor Unico!!!";
