@@ -16,3 +16,18 @@ echo \contexto\constante3 . '<br>';
 echo constant(__NAMESPACE__ . '\constante3') . '<br>';
 // echo constante4 . '<br>';
 echo \outro_contexto\constante4 .'<br>';
+
+function soma($a, $b) {
+    return $a + $b;
+}
+
+echo \contexto\soma(1, 2) . '<br>';
+echo soma(1, 2) . '<br>';
+
+function strpos($str, $text) {
+    echo "Buscando o texto '{$text}' em '{$str}'<br>";
+    return 1;
+}
+
+echo strpos("Texto genérico para busca", "busca") . "<br>";
+echo \strpos("Texto genérico para busca", "busca") . "<br>";
