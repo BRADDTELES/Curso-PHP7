@@ -33,6 +33,11 @@
                   Include em Função
                 </a>
               </li>
+              <li>
+                <a class="plain" href="exercicio.php?dir=includes&file=include_require">
+                  Include vs Require
+                </a>
+              </li>
             </ul>
           </div>
         <div class="modulo azul-escuro">
