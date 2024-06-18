@@ -52,6 +52,11 @@
                 <a class="plain" href="exercicio.php?dir=includes&file=require_once">
                   Require Once
                 </a>
+                <li>
+                <a class="plain" href="exercicio.php?dir=includes&file=desafio_include_require">
+                  Desafio Include & Require
+                </a>
+              </li>
               </li>
             </ul>
           </div>
