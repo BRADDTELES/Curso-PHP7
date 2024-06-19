@@ -1,4 +1,14 @@
 <nav class="modulos">
+    <div class="modulo verde">
+        <h3>11. Tratamento de Erro</h3>
+        <ul>
+            <li>
+                <a class="plain" href="exercicio.php?dir=tratamento_erro&file=try_catch">
+                    Try/Catch
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="modulo laranja-escuro">
         <h3>10. Namespace</h3>
         <ul>
