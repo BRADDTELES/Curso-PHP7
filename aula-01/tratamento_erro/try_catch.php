@@ -20,3 +20,5 @@ try {
 } finally {
     echo "Sempre executado!<br>";
 }
+
+echo "Execução contínua...<br>";
