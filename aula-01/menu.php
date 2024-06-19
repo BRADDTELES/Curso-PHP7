@@ -7,6 +7,11 @@
                     Try/Catch
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=tratamento_erro&file=erros_personalizados">
+                    Erros Personalizados
+                </a>
+            </li>
         </ul>
     </div>
     <div class="modulo laranja-escuro">
