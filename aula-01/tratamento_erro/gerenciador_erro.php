@@ -21,9 +21,9 @@ include 'arquivo_inexistente.php';
 
 // Filtrar mensagens especificas para serem exibidas ou não
 function filtrarMensagem($errno, $errstring) {
-    // $text = "include";
-    $text = "by zero";
-    return !!stripos(" $errstring", "$text");
+    $text = "include";
+    // $text = "by zero";
+    return !!stripos(" $errstring", $text);
 }
 
 set_error_handler("filtrarMensagem", E_WARNING);
