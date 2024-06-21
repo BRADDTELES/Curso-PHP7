@@ -1,5 +1,15 @@
 <nav class="modulos">
-    <div class="modulo verde">
+<div class="modulo vermelho">
+        <h3>12. Sessão</h3>
+        <ul>
+            <li>
+                <a class="plain" href="exercicio.php?dir=sessao&file=basico_sessao">
+                    Sessão
+                </a>
+            </li>
+        </ul>
+    </div>    
+<div class="modulo verde">
         <h3>11. Tratamento de Erro</h3>
         <ul>
             <li>
