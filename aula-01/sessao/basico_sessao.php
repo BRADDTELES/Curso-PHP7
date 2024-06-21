@@ -1,7 +1,7 @@
 <div class="titulo">Sessão</div>
 
 <?php
-session_start();
+session_start(); // é importante ter o session_start()
 
 print_r($_SESSION);
 echo '<br>';
