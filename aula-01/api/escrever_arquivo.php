@@ -8,7 +8,7 @@ fwrite($arquivo, $str);
 fclose($arquivo);
 
 $arquivo = fopen('teste.txt', 'w');
-fwrite($arquivo, "Novo conteudo");
+fwrite($arquivo, "Novo conteúdo");
 fclose($arquivo);
 
 $arquivo = fopen('teste.txt', 'a');
