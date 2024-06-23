@@ -4,7 +4,8 @@
 print_r($_FILES);
 
 if ($_FILES && $_FILES['arquivo']) {
-    $pastaUpload = "/home/cobranca1/Downloads/nova pasta/Web/Curso-PHP7";
+    // $pastaUpload = "/home/cobranca1/Downloads/nova pasta/Web/Curso-PHP7";
+    $pastaUpload = "C:\\MAMP\\htdocs\\Curso-PHP7\\aula-01\\";
     $nomeArquivo = $_FILES['arquivo']['name'];
     $arquivo = $pastaUpload . $nomeArquivo;
     $tmp = $_FILES['arquivo'] ['tmp_name'];
