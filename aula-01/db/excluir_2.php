@@ -4,6 +4,9 @@
 <?php 
 require_once "conexao.php";
 
+$registros = [];
+$conexao = novaConexao();
+
 if ($_GET['excluir']) {
     $excluirSQL = "DELETE FROM cadastro WHERE id = ?";
     $stmt = $conexao->prepare($excluirSQL);
@@ -12,12 +15,7 @@ if ($_GET['excluir']) {
 }
 
 $sql = "SELECT * FROM cadastro";
-
-$conexao = novaConexao();
 $resultado = $conexao->query($sql);
-
-$registros = [];
-
 if($resultado->num_rows > 0) {
     while($row = $resultado->fetch_assoc()) {
         $registros[] = $row;
@@ -52,7 +50,7 @@ $conexao->close();
                 <td><?= $registro['filhos']?></td>
                 <td><?= $registro['salario']?></td>
                 <td>
-                    <a href="/aula-01/exercicio.php?dir=db&file=excluir_2&excluir=<?= $registro['id']?>" class="btn btn-danger">
+                    <a href="/exercicio.php?dir=db&file=excluir_2&excluir=<?=$registro['id']?>" class="btn btn-danger">
                         Excluir
                     </a>
                 </td>
