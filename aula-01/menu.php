@@ -32,6 +32,11 @@
                     Excluir Registro #02
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=inserir_2">
+                    Inserir Registro #02
+                </a>
+            </li>
         </ul>
     </div>
 <div class="modulo roxo">

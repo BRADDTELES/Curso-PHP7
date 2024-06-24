@@ -61,6 +61,6 @@ $conexao->close();
 
 <style>
     table > * {
-        font-size: 0.7rem;
+        font-size: 1.2rem;
     }
 </style>
