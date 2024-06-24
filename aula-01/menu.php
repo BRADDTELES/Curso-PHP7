@@ -17,6 +17,11 @@
                     Inserir Registro #01
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=consultar">
+                    Consultar Registros
+                </a>
+            </li>
         </ul>
     </div>
 <div class="modulo roxo">
