@@ -1,4 +1,14 @@
 <nav class="modulos">
+<div class="modulo laranja">
+        <h3>15. Banco de Dados</h3>
+        <ul>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=criar_banco">
+                    Criar Banco
+                </a>
+            </li>
+        </ul>
+    </div>
 <div class="modulo roxo">
         <h3>14. Formulário</h3>
         <ul>
