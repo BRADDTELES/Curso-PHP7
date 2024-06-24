@@ -4,7 +4,7 @@
 
 // require_once "conexao.php";
 
-// $sql = "DELETE FROM cadastro WHERE id = 1";
+// $sql = "DELETE FROM cadastro WHERE id = 3";
 
 // $conexao = novaConexao();
 // $resultado = $conexao->query($sql);
