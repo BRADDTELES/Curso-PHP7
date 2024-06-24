@@ -25,7 +25,7 @@ if (move_uploaded_file($tmp, $arquivo)) {
 
 <ul>
     <?php foreach($arquivos as $arquivo): ?>
-        <?php if(stripos($arquivo, '.png') > 0): ?>    
+        <?php if(stripos($arquivo, '.jpg') > 0): ?>    
             <li>
                 <img src="../files/<?= $arquivo ?>" height="120" />
             </li>
