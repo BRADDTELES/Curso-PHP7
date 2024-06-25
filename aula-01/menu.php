@@ -42,6 +42,11 @@
                     Alterar Registro
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=inserir_pdo">
+                    PDO: Inserir
+                </a>
+            </li>
         </ul>
     </div>
 <div class="modulo roxo">

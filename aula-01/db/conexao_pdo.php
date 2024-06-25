@@ -14,4 +14,4 @@ function novaConexao($banco = 'curso_php') {
 }
 
 novaConexao();
-echo "Banco Conectado!";
+echo "Banco Conectado!<br>";
