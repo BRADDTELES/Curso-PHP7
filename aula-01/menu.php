@@ -57,6 +57,11 @@
                     PDO: Excluir
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=alterar_pdo">
+                    PDO: Alterar
+                </a>
+            </li>
         </ul>
     </div>
 <div class="modulo roxo">
