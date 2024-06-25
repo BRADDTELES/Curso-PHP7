@@ -1,4 +1,1 @@
-<?php 
-echo "Olá, Mundo!";
-echo "<br>";
-echo "Seja bem vindo(a) #6";
+<h1>OK</h1>
