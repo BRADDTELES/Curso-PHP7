@@ -9,3 +9,17 @@ CREATE TABLE IF NOT EXISTS cadastro (
     filhos INT,
     salario FLOAT
 )
+
+INSERT INTO cadastro (nome, nascimento, email, site, filhos, salario) 
+VALUES ('Maria Silva',
+        '2001-11-11',
+        'maria_silva@gmail.com',
+        'http://mariasilvao.co',
+        0,
+        7800.12)
+
+UPDATE cadastro SET nome = ?, nascimento = ?, email = ?, site = ?, filhos = ?, salario = ? WHERE id = ?
+
+DELETE FROM cadastro WHERE id = 1
+
+SELECT * FROM cadastro
