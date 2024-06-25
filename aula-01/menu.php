@@ -1,5 +1,5 @@
 <nav class="modulos">
-<div class="modulo laranja">
+    <div class="modulo laranja">
         <h3>15. Banco de Dados</h3>
         <ul>
             <li>
@@ -64,7 +64,7 @@
             </li>
         </ul>
     </div>
-<div class="modulo roxo">
+    <div class="modulo roxo">
         <h3>14. Formulário</h3>
         <ul>
             <li>
@@ -74,7 +74,7 @@
             </li>
         </ul>
     </div>
-<div class="modulo azul">
+    <div class="modulo azul">
         <h3>13. API</h3>
         <ul>
             <li>
@@ -114,7 +114,7 @@
             </li>
         </ul>
     </div>
-<div class="modulo vermelho">
+    <div class="modulo vermelho">
         <h3>12. Sessão</h3>
         <ul>
             <li>
@@ -128,8 +128,8 @@
                 </a>
             </li>
         </ul>
-    </div>    
-<div class="modulo verde">
+    </div>
+    <div class="modulo verde">
         <h3>11. Tratamento de Erro</h3>
         <ul>
             <li>
