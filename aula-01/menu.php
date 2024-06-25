@@ -47,6 +47,11 @@
                     PDO: Inserir
                 </a>
             </li>
+            <li>
+                <a class="plain" href="exercicio.php?dir=db&file=consultar_pdo">
+                    PDO: Consultar
+                </a>
+            </li>
         </ul>
     </div>
 <div class="modulo roxo">
