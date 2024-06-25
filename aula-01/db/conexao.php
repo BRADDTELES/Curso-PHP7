@@ -1,11 +1,11 @@
 <?php
 
 function novaConexao ($banco = 'curso_php') {
-    // $servidor = '127.0.0.1:3306'; // pode também usar a Porta 3307 ou localhost no lugar do 127.0.0.1
-    $servidor = '127.0.0.1:3307';
+    $servidor = '127.0.0.1:3306'; // pode também usar a Porta 3307 ou localhost no lugar do 127.0.0.1
+    // $servidor = '127.0.0.1:3307';
     $usuario = 'root';
-    $senha = 'root';
-    // $senha = ''; // informe a senha caso tenha
+    // $senha = 'root';
+    $senha = ''; // informe a senha caso tenha
 
     $conexao = new mysqli($servidor, $usuario, $senha, $banco);
 
