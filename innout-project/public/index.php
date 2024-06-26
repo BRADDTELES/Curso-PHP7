@@ -3,7 +3,11 @@
 require_once(dirname(__FILE__, 2) . '/src/config/config.php');
 require_once(dirname(__FILE__, 2) . '/src/models/User.php');
 
-$user = new User(['name' => 'Lucas', 'email' => 'lucas@cod3r.com.br']);
-print_r($user);
-$user->email = 'lucas_alterado@cod3r.com.br';
-print_r($user->email);
+// $user = new User(['name' => 'Lucas', 'email' => 'lucas@cod3r.com.br']);
+// $user->email = 'lucas_alterado@cod3r.com.br'; // Defini o set
+// print_r($user->email); // Busquei o get
+// $user = new User([]);
+// echo $user->getSelect();
+echo User::getSelect(['id' => 1],'name, email');
+echo '<br>';
+echo User::getSelect(['name' => 'Chaves', 'email' => 'chaves@cod3r.com.br']);
