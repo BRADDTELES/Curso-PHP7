@@ -23,14 +23,14 @@ $indice = array_rand($dadosCompletos);
 echo "$indice = $dadosCompletos[$indice]";
 echo '<br>';
 echo "{$dadosCompletos['idade']}"; // funciona também sem as chaves e aspas duplas
-echo " ${dadosCompletos['idade']}";
+echo " {$dadosCompletos['idade']}";
 
 unset($dadosCompletos['nome']); // Remover um elemento do array
 echo '<br>';
 print_r($dadosCompletos);
 unset($dadosCompletos); // Esvaziar o array
 echo '<br>';
-var_dump($dadosCompletos);
+// var_dump($dadosCompletos);
 
 $impares = [1, 3, 5, 7, 9];
 $pares = [0, 2, 4, 6, 8];
