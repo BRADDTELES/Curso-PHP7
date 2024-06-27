@@ -22,7 +22,8 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" class="form-control" placeholder="Informe o e-mail" autofocus>
+                    <input type="email" id="email" name="email" class="form-control"
+                    value="<?= $email ?>" placeholder="Informe o e-mail" autofocus>
                 </div>
                 <div class="form-group">
                     <label for="password">Senha</label>
@@ -34,6 +35,5 @@
             </div>
         </div>
     </form>
-    <?= $texto ?>
 </body>
 </html>
