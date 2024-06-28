@@ -27,7 +27,7 @@ aside.sidebar {
     grid-area: sidebar;
 }
 
-.hide-sidebar aside.sidebar {
+body.hide-sidebar aside.sidebar {
     display: none;
 }
 
