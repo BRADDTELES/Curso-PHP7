@@ -12,7 +12,7 @@
     <title>In N' Out</title>
 </head>
 
-<body>
+<body class="hide-sidebar">
     <header class="header">
         <div class="logo">
             <i class="icofont-travelling mr-2"></i>
@@ -25,6 +25,6 @@
             <i class="icofont-navigation-menu"></i>
         </div>
         <div class="spacer">
-            
+
         </div>
     </header>
