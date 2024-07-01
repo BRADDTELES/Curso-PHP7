@@ -34,7 +34,7 @@
                 <ul class="nav-list">
                     <li class="nav-item">
                         <a href="logout.php">
-                            <i class="iconfont-logout mr-2">Sair</i>
+                            <i class="icofont-logout mr-2">Sair</i>
                         </a>
                     </li>
                 </ul>
