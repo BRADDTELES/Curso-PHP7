@@ -27,7 +27,7 @@
         <div class="spacer"></div>
         <div class="dropdown">
             <div class="dropdown-button">
-                <span>Usuário Mock</span>
+                <span class="ml-3">Usuário Mock</span>
                 <i class="icofont-simple-down ml-2"></i>
             </div>
             <div class="dropdown-content">
