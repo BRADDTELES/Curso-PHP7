@@ -1,4 +1,4 @@
- <aside class="sidebar">
+<aside class="sidebar">
     <nav class="menu mt-3">
         <ul class="nav-list">
             <li class="nav-item">
@@ -30,9 +30,18 @@
                 <span class="main text-primary">
                     04:23
                 </span>
-                <span class="label text-mute">Horas Trabalhadas</span>
+                <span class="label text-muted">Horas Trabalhadas</span>
+            </div>
+        </div> 
+        <div class="division my-3">
+        <div class="sidebar-widget">
+            <i class="icon icofont-ui-alarm text-danger"></i>
+            <div class="info">
+                <span class="main text-danger">
+                    18:00
+                </span>
+                <span class="label text-muted">Horas de Saída</span>
             </div>
         </div>
     </div>
- </aside>
- 
+</aside>
