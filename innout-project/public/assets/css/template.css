@@ -140,6 +140,18 @@ body.hide-sidebar aside.sidebar {
     display: none;
 }
 
+aside.sidebar .sidebar-widget {
+    display: flex;
+}
+
+aside.sidebar .icon {
+    font-size: 3.5rem;
+}
+
+aside.sidebar .info ,main {
+    font-size: 2rem;
+}
+
 main.content {
     grid-area: content;
 }
