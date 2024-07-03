@@ -44,7 +44,7 @@ class Model {
     }
 
     public static function getResultSetFromSelect($filters = [] ,$columns = '*') {
-        $sql = "SELECT {$columns} FROM " . static::$tableName . static::getFilters($filters);
+        $sql = "SELECT ${columns} FROM " . static::$tableName . static::getFilters($filters);
         $result = Database::getResultFromQuery($sql);
         if($result->num_rows == 0) {
             return null;
@@ -53,12 +53,23 @@ class Model {
         }
     }
 
+    public static function save(){
+        $sql = "INSERT INTO " . static::$tableName . " ("
+            . implode(",", static::$columns) . ") VALUES (";
+        foreach(static::$columns as $col){
+            $sql .= static::getFormatedValue($this->$col) . ",";
+        }
+        $sql[strlen($sql) - 1] = ')';
+        $id = Database::executeSQL($sql);
+        $this->id = $id;
+    }
+
     private static function getFilters($filters) {
         $sql = "";
         if (count($filters) > 0) {
             $sql .= " WHERE 1 = 1";
             foreach($filters as $collumn => $value) {
-                $sql .= " AND {$collumn} = " . static::getFormatedValue($value);
+                $sql .= " AND ${collumn} = " . static::getFormatedValue($value);
             }
         }
         return $sql;
@@ -68,7 +79,7 @@ class Model {
         if(is_null($value)) {
             return "null";
         } elseif(gettype($value) === 'string') {
-            return "'{$value}'";
+            return "'${value}'";
         } else {
             return $value;
         }
