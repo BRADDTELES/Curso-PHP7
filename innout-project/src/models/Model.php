@@ -34,29 +34,31 @@ class Model {
     public static function get($filters = [], $columns = '*') {
         $objects = [];
         $result = static::getResultSetFromSelect($filters, $columns);
-        if ($result) {
+        if($result) {
             $class = get_called_class();
-            while ($row = $result->fetch_assoc()) {
+            while($row = $result->fetch_assoc()) {
                 array_push($objects, new $class($row));
             }
         }
         return $objects;
     }
 
-    public static function getResultSetFromSelect($filters = [] ,$columns = '*') {
-        $sql = "SELECT ${columns} FROM " . static::$tableName . static::getFilters($filters);
+    public static function getResultSetFromSelect($filters = [], $columns = '*') {
+        $sql = "SELECT {$columns} FROM " 
+            . static::$tableName 
+            . static::getFilters($filters);
         $result = Database::getResultFromQuery($sql);
-        if($result->num_rows == 0) {
+        if($result->num_rows === 0) {
             return null;
         } else {
             return $result;
         }
     }
 
-    public static function save(){
+    public function save() {
         $sql = "INSERT INTO " . static::$tableName . " ("
             . implode(",", static::$columns) . ") VALUES (";
-        foreach(static::$columns as $col){
+        foreach(static::$columns as $col) {
             $sql .= static::getFormatedValue($this->$col) . ",";
         }
         $sql[strlen($sql) - 1] = ')';
@@ -65,11 +67,11 @@ class Model {
     }
 
     private static function getFilters($filters) {
-        $sql = "";
-        if (count($filters) > 0) {
+        $sql = '';
+        if(count($filters) > 0) {
             $sql .= " WHERE 1 = 1";
-            foreach($filters as $collumn => $value) {
-                $sql .= " AND ${collumn} = " . static::getFormatedValue($value);
+            foreach($filters as $column => $value) {
+                $sql .= " AND {$column} = " . static::getFormatedValue($value);
             }
         }
         return $sql;
@@ -79,7 +81,7 @@ class Model {
         if(is_null($value)) {
             return "null";
         } elseif(gettype($value) === 'string') {
-            return "'${value}'";
+            return "'{$value}'";
         } else {
             return $value;
         }
