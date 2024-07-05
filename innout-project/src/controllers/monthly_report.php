@@ -2,11 +2,9 @@
 session_start();
 requireValidSession();
 
-loadTemplateView('monthly_report');
-
 // $currentDate = new DateTime();
 
-// $user = $_SESSION['user'];
+$user = $_SESSION['user'];
 // $selectedUserId = $user->id;
 // $users = null;
 // if($user->is_admin) {
@@ -24,7 +22,8 @@ loadTemplateView('monthly_report');
 //     }
 // }
 
-// $registries = WorkingHours::getMonthlyReport($selectedUserId, $selectedPeriod);
+$registries = WorkingHours::getMonthlyReport($user->id, new DateTime());
+//$registries = WorkingHours::getMonthlyReport($selectedUserId, $selectedPeriod);
 
 // $report = [];
 // $workDay = 0;
@@ -52,12 +51,13 @@ loadTemplateView('monthly_report');
 // $balance = getTimeStringFromSeconds(abs($sumOfWorkedTime - $expectedTime));
 // $sign = ($sumOfWorkedTime >= $expectedTime) ? '+' : '-';
 
-// loadTemplateView('monthly_report', [
-//     'report' => $report,
-//     'sumOfWorkedTime' => getTimeStringFromSeconds($sumOfWorkedTime),
-//     'balance' => "{$sign}{$balance}",
-//     'selectedPeriod' => $selectedPeriod,
-//     'periods' => $periods,
-//     'selectedUserId' => $selectedUserId,
-//     'users' => $users,
-// ]);
+loadTemplateView('monthly_report', [
+    'registries' => $registries
+    // 'report' => $report,
+    // 'sumOfWorkedTime' => getTimeStringFromSeconds($sumOfWorkedTime),
+    // 'balance' => "{$sign}{$balance}",
+    // 'selectedPeriod' => $selectedPeriod,
+    // 'periods' => $periods,
+    // 'selectedUserId' => $selectedUserId,
+    // 'users' => $users,
+]);

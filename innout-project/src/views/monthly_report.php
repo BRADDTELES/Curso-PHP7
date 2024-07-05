@@ -1,6 +1,5 @@
-<h1>monthly_report</h1>
 <!-- <main class="content">
-	<?php
+	<?php print_r($registries);
 		// renderTitle(
 		// 	'Relatório Mensal',
 		// 	'Acompanhe seu saldo de horas',
@@ -10,9 +9,9 @@
 	<div>
 		<form class="mb-4" action="#" method="post">
 			<div class="input-group">
-				<?php// if($user->is_admin): ?>
-					<select name="user" class="form-control mr-2" placeholder="Selecione o usuário...">
-						<option value="">Selecione o usuário</option>
+				<?php// if($user->is_admin): ?> -->
+					<!-- <select name="user" class="form-control mr-2" placeholder="Selecione o usuário...">
+						<option value="">Selecione o usuário</option> -->
 						<?php
 							// foreach($users as $user) {
 							// 	$selected = $user->id === $selectedUserId ? 'selected' : '';
@@ -21,7 +20,7 @@
 						?>
 					</select>
 				<?php// endif ?>
-				<select name="period" class="form-control" placeholder="Selecione o período...">
+				<!-- <select name="period" class="form-control" placeholder="Selecione o período...">
 					<?php
 						// foreach($periods as $key => $month) {
 						// 	$selected = $key === $selectedPeriod ? 'selected' : '';
@@ -43,10 +42,10 @@
 				<th>Entrada 2</th>
 				<th>Saída 2</th>
 				<th>Saldo</th>
-			</thead>
-			<tbody>-->
+			</thead> -->
+			<!-- <tbody>
 				<?php// foreach($report as $registry): ?>
-					<!-- <tr>
+					<tr>
 						<td><?=''// formatDateWithLocale($registry->work_date, '%A, %d de %B de %Y') ?></td>
 						<td><?=''// $registry->time1 ?></td>
 						<td><?=''// $registry->time2 ?></td>
