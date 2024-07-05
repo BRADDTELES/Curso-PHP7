@@ -89,7 +89,7 @@ class Model {
                     $sql .= " AND {$value}";
                 } else {
                     $sql .= " AND {$column} = " . static::getFormatedValue($value);
-}
+                }
             }
         }
         return $sql;
