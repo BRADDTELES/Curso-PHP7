@@ -9,7 +9,7 @@ if(count($_POST) > 0) {
         $user = $login->checkLogin();
         $_SESSION['user'] = $user;
         header("Location: day_records.php");
-    } catch (AppException $e) {
+    } catch(AppException $e) {
         $exception = $e;
     }
 }

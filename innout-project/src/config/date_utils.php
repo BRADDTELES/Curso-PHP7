@@ -1,6 +1,6 @@
 <?php
 
-function getDateAsDateTime($date){
+function getDateAsDateTime($date) {
     return is_string($date) ? new DateTime($date) : $date;
 }
 

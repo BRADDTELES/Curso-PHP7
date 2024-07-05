@@ -25,6 +25,10 @@ class Model {
         $this->values[$key] = $value;
     }
 
+    public function getValues() {
+        return $this->values;
+    }
+
     public static function getOne($filters = [], $columns = '*') {
         $class = get_called_class();
         $result = static::getResultSetFromSelect($filters, $columns);
@@ -69,7 +73,7 @@ class Model {
     public function update() {
         $sql = "UPDATE " . static::$tableName . " SET ";
         foreach(static::$columns as $col) {
-            $sql .= " ${col} = " . static::getFormatedValue($this->$col) . ",";
+            $sql .= " {$col} = " . static::getFormatedValue($this->$col) . ",";
         }
         $sql[strlen($sql) - 1] = ' ';
         $sql .= "WHERE id = {$this->id}";
@@ -81,7 +85,11 @@ class Model {
         if(count($filters) > 0) {
             $sql .= " WHERE 1 = 1";
             foreach($filters as $column => $value) {
-                $sql .= " AND {$column} = " . static::getFormatedValue($value);
+                if($column == 'raw') {
+                    $sql .= " AND {$value}";
+                } else {
+                    $sql .= " AND {$column} = " . static::getFormatedValue($value);
+}
             }
         }
         return $sql;

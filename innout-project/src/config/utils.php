@@ -3,7 +3,7 @@
 function addSuccessMsg($msg) {
     $_SESSION['message'] = [
         'type' => 'success',
-        'message' => 'Ponto inserido com sucesso!'
+        'message' => $msg
     ];
 }
 
