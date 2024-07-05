@@ -1,5 +1,5 @@
 <!-- <main class="content">
-	<?php print_r($registries);
+	<?php print_r($report);
 		// renderTitle(
 		// 	'Relatório Mensal',
 		// 	'Acompanhe seu saldo de horas',
