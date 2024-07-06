@@ -5,12 +5,12 @@ requireValidSession();
 $currentDate = new DateTime();
 
 $user = $_SESSION['user'];
-// $selectedUserId = $user->id;
-// $users = null;
-// if($user->is_admin) {
-//     $users = User::get();
-//     $selectedUserId = $_POST['user'] ? $_POST['user'] : $user->id;
-// }
+$selectedUserId = $user->id;
+$users = null;
+if($user->is_admin) {
+    $users = User::get();
+    $selectedUserId = $_POST['user'] ? $_POST['user'] : $user->id;
+}
 
 $selectedPeriod = $_POST['period'] ? $_POST['period'] : $currentDate->format('Y-m');
 $periods = [];
@@ -22,8 +22,7 @@ for($yearDiff = 0; $yearDiff <= 2; $yearDiff++) {
     }
 }
 
-$registries = WorkingHours::getMonthlyReport($user->id, new DateTime());
-//$registries = WorkingHours::getMonthlyReport($selectedUserId, $selectedPeriod);
+$registries = WorkingHours::getMonthlyReport($selectedUserId, $selectedPeriod);
 
 $report = [];
 $workDay = 0;
