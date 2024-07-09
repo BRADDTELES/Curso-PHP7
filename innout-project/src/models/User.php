@@ -35,17 +35,17 @@ class User extends Model {
         $errors = [];
 
         if(!$this->name) {
-            $errors['name'] = 'Nome é um campo abrigatório.';
+            $errors['name'] = 'Nome é um campo obrigatório.';
         }
 
         if(!$this->email) {
-            $errors['email'] = 'Email é um campo abrigatório.';
+            $errors['email'] = 'Email é um campo obrigatório.';
         } elseif(!filter_var($this->email, FILTER_VALIDATE_EMAIL)) {
             $errors['email'] = 'Email inválido.';
         }
 
         if(!$this->start_date) {
-            $errors['start_date'] = 'Data de Admissão é um campo abrigatório.';
+            $errors['start_date'] = 'Data de Admissão é um campo obrigatório.';
         } elseif(!DateTime::createFromFormat('Y-m-d', $this->start_date)) {
             $errors['start_date'] = 'Data de Admissão deve seguir o padrão dd/mm/aaaa.';
         }
@@ -55,11 +55,11 @@ class User extends Model {
         }
 
         if(!$this->password) {
-            $errors['password'] = 'Senha é um campo abrigatório.';
+            $errors['password'] = 'Senha é um campo obrigatório.';
         }
 
         if(!$this->confirm_password) {
-            $errors['confirm_password'] = 'Confirmação de Senha é um campo abrigatório.';
+            $errors['confirm_password'] = 'Confirmação de Senha é um campo obrigatório.';
         }
 
         if($this->password && $this->confirm_password 
