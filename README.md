@@ -1,5 +1,5 @@
 <h1 align="center"> Curso PHP 7 </h1>
-<p align="justify"> Entendo o básico da linguagem como sintaxe e os tipos, conhecer as estruturas lógicas e de repetição, como criar funções e trabalhar no contexto orientado à objetos. Apresentar conceitos mais avançados como cookies, sessões, integração com banco de dados. Ofertada pela plataforma Udemy. </p>
+<p align="justify"> Aprendendo o básico da linguagem como sintaxe e os tipos, conhecer as estruturas lógicas e de repetição, como criar funções e trabalhar no contexto orientado à objetos. Apresentar conceitos mais avançados como cookies, sessões, integração com banco de dados. Ofertada pela plataforma Udemy. </p>
 
 <p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
 
