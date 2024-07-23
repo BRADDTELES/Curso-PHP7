@@ -1,3 +1,9 @@
 ### Dentro da pasta form ###
 npm init -y
 npm i --save express@4.16.3 body-parser@1.18.2 -E
+Executar Terminal: node server.js
+
+Ou 2º opção
+npm i --save-dev nodemon@1.17.1
+Executar Terminal: nodemon server.js
+ou: nodemon
