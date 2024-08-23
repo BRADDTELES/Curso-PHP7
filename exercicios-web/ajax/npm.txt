@@ -2,7 +2,7 @@ npm init -y <<<< para inicializar o servidor
 npm i <<<< para baixar as dependencias e arquivos
 npm start <<<< para dá um Start
 
-
+http://localhost:8080/
 
 
 ps -ax <<<< pesquisar processos em execução
