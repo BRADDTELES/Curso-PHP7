@@ -1,0 +1,9 @@
+npm init -y <<<< para inicializar o servidor
+npm i <<<< para baixar as dependencias e arquivos
+npm start <<<< para dá um Start
+
+
+
+
+ps -ax <<<< pesquisar processos em execução
+kill -9 (nº do processo) <<<< para matar o processo
