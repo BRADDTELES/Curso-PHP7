@@ -7,3 +7,5 @@ http://localhost:8080/
 
 ps -ax <<<< pesquisar processos em execução
 kill -9 (nº do processo) <<<< para matar o processo
+
+>>> PRECISA ESTÁ DENTRO DA PASTA DO "AJAX" <<<
