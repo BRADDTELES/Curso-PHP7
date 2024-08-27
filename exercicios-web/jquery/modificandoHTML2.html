@@ -31,5 +31,13 @@
 
         // $('p.numero').wrap('<div>')
         $('p.numero').wrapAll('<div id="div4">')
+        $('#div4').empty()
+        $('#div3, #div4').prev().remove()
+
+        // $('<div>Substituto</div>').replaceAll('body > p')
+        // $('body > p').replaceWith('<div>Substituto</div>')
+        $('body > p').replaceWith(function() {
+            return $('<div>').html($(this).html()).append('!!!')
+        })
     </script>
 </body>
