@@ -33,6 +33,6 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## Linkedin do Aluno
-[<img src="https://media.licdn.com/dms/image/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/0/1692528467769?e=1726704000&v=beta&t=YXGoQVzXSESvMXzbRh652tkfY39FgYZX0Pw9RcEVVho" width=115 > <br> <sub> Danillo Teles </sub>](https://www.linkedin.com/in/danilloteles/) |
+[<img src="https://media.licdn.com/dms/image/v2/D4D03AQHI20SknUFvqA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692528467769?e=1733356800&v=beta&t=XCZg2kxefPwBvIORGgMg8U-YYN8H3gtbzJhY9iDYKcg" width=115 > <br> <sub> Danillo Teles </sub>](https://www.linkedin.com/in/danilloteles/) |
 | :---: |
 ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
