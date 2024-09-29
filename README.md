@@ -1,7 +1,7 @@
 <h1 align="center"> Curso PHP 7 </h1>
 <p align="justify"> Aprendendo o básico da linguagem como sintaxe e os tipos, conhecer as estruturas lógicas e de repetição, como criar funções e trabalhar no contexto orientado à objetos. Apresentar conceitos mais avançados como cookies, sessões, integração com banco de dados. Ofertada pela plataforma Udemy. </p>
 
-<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/></p>
+<p align="center"><img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/></p>
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
 :trophy: Ao final de cada curso, será disponibilizado o certificado de conclusão
